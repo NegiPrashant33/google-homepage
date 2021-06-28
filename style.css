@@ -1,0 +1,29 @@
+html {
+    margin: 0px;
+}
+
+/* if image is not in div element then we can center the image with
+
+img {
+     display: block;
+     margin: 0 auto; 
+    }
+
+*/
+
+
+.google-img {
+    display: block;
+    text-align: center;
+    margin-top: 13em;
+}
+
+#google-search {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    width: 30%;
+    height: 3.5em;
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}

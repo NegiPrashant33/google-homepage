@@ -1,5 +1,5 @@
 html {
-    margin: 0px;
+    margin: 0;
 }
 
 /* if image is not in div element then we can center the image with
@@ -11,7 +11,38 @@ img {
 
 */
 
+/*  NAV BAR */
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8)
+}
 
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -6em;
+}
+
+#nav-bar li {
+    list-style: none;
+    margin: 0;
+    padding: 0 0.6em;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+}
+
+.app-icon {
+    width: 50%;
+}
+
+.profile-img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+/* MAIN BODY */
 .google-img {
     display: block;
     text-align: center;
@@ -27,3 +58,6 @@ img {
     border: 0.1px solid rgba(0, 0, 0, 0.2);
     border-radius: 30px;
 }
+
+
+/* FOOTER */

@@ -2,14 +2,12 @@ html {
     margin: 0;
 }
 
-/* if image is not in div element then we can center the image with
-
-img {
-     display: block;
-     margin: 0 auto; 
-    }
-
-*/
+body {
+    min-height: 100%;
+    font-size: 0.8750em;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
 
 /*  NAV BAR */
 a {
@@ -22,14 +20,13 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin-right: -6em;
 }
 
 #nav-bar li {
     list-style: none;
     margin: 0;
     padding: 0 0.6em;
-    font-size: 0.8em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
 }
 
@@ -38,15 +35,25 @@ a {
 }
 
 .profile-img {
-    width: 25%;
     border-radius: 50%;
 }
 
 /* MAIN BODY */
+
+/* if image is not in div element then we can center the image with
+
+img {
+     display: block;
+     margin: 0 auto; 
+    }
+
+*/
+
+
 .google-img {
     display: block;
     text-align: center;
-    margin-top: 13em;
+    margin-top: 14em;
 }
 
 #google-search {
@@ -61,3 +68,41 @@ a {
 
 
 /* FOOTER */
+
+footer {
+    margin-top: 31em;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+#footer-nav ul{
+    display: flex;
+    flex-direction: row;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* #footer-nav .right {
+    justify-content: flex-end;
+} */
+
+#footer-nav li, .country li {
+    list-style: none;
+    margin: 0;
+    font-family: arial, sans-serif;
+    color: #f2f2f2;
+}
+
+.country {
+    padding-top: 0.5em;
+}
+#footer-nav li {
+    padding-top: 1.5em;
+    padding-right: 2em;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90em;
+}
+

@@ -60,49 +60,62 @@ img {
     display: block;
     margin: 0 auto;
     margin-top: 1.5em;
-    width: 30%;
+    width: 28%;
     height: 3.5em;
-    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    border: 0.01px solid rgba(0, 0, 0, 0.15);
     border-radius: 30px;
+    outline: none;
+    background: url('search.png') no-repeat scroll 12px 12px;
+    padding-left: 4em;
+}
+
+.input {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#g-search, #Feeling {
+    height: 2.7em;
+    width: 7%;
+    border: 0 solid rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    background-color: #f8f9fa;
+    color: #474b4e;
+    border-radius: 10%;
+}
+
+#g-search {
+    margin-right: 0.6em;
 }
 
 
 /* FOOTER */
 
 footer {
-    margin-top: 31em;
+    margin-top: 30em;
     background-color: #f2f2f2;
     overflow: hidden;
 }
 
-#footer-nav ul{
+#footer-nav {
     display: flex;
     flex-direction: row;
     border-top: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* #footer-nav .right {
-    justify-content: flex-end;
-} */
-
-#footer-nav li, .country li {
-    list-style: none;
-    margin: 0;
-    font-family: arial, sans-serif;
-    color: #f2f2f2;
+.left a, .right a {
+    padding-left: 1.5em;
 }
 
-.country {
-    padding-top: 0.5em;
-}
-#footer-nav li {
-    padding-top: 1.5em;
-    padding-right: 2em;
+.left, .right {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .right {
-    display: flex;
-    flex-direction: row;
-    margin-left: 90em;
+    margin-left: 93em;
 }
 
+footer a {
+    color: grey;
+}

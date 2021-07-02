@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /*  NAV BAR */
 a {
     text-decoration: none;
@@ -69,6 +73,10 @@ img {
     padding-left: 4em;
 }
 
+#google-search:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 .input {
     text-align: center;
     margin-top: 2em;
@@ -81,13 +89,16 @@ img {
     font-size: 1em;
     background-color: #f8f9fa;
     color: #474b4e;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 #g-search {
     margin-right: 0.6em;
 }
 
+#g-search:hover, #Feeling:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
 
 /* FOOTER */
 

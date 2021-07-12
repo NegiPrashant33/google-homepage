@@ -69,7 +69,7 @@ img {
     border: 0.01px solid rgba(0, 0, 0, 0.15);
     border-radius: 30px;
     outline: none;
-    background: url('search.png') no-repeat scroll 12px 12px;
+    background: url('../Images/search.png') no-repeat scroll 12px 12px;
     padding-left: 4em;
 }
 
